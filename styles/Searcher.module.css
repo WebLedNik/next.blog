@@ -1,0 +1,24 @@
+.searcher{
+    display: flex;
+    align-items: center;
+}
+
+.searcher input{
+    padding-left: 14px;
+    height: 40px;
+    border-radius: 3px 0 0 3px;
+    background-color: var(--fg);
+}
+
+.searcher button{
+    width: 40px;
+    height: 40px;
+    left: 1240px;
+    top: 96px;
+    background: var(--primary_third);
+    border-radius: 3px;
+}
+
+.searcher button:hover{
+    background-color: var(--primary_second);
+}

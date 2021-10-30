@@ -1,0 +1,12 @@
+.popular{
+
+}
+
+.popular__title{
+    margin-bottom: 24px;
+    color: var(--primary_first);
+}
+
+.popular__section{
+    margin-bottom: 24px;
+}

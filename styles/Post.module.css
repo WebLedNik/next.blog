@@ -1,0 +1,41 @@
+.post{
+    background-color: var(--fg);
+    border-radius: 8px;
+    padding: 16px 20px;
+}
+
+.post__subheader{
+    margin-bottom: 16px;
+}
+
+.post__title{
+    margin-bottom: 16px;
+}
+
+.post__subtitle{
+    display: flex;
+}
+
+.post__divider{
+    position: relative;
+    width: 15px;
+}
+
+.post__divider:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 14px;
+    width: 1px;
+    background-color: var(--primary_second);
+}
+
+.post__author{
+
+}
+
+.post__author:hover{
+    color: var(--primary_third);
+}
