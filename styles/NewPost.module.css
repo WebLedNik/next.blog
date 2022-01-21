@@ -1,0 +1,14 @@
+.new{
+    max-width: 640px;
+    width: 100%;
+    margin: 12px auto 0;
+}
+
+.new__title{
+    margin-bottom: 24px;
+    color: var(--primary_first);
+}
+
+.new__section:not(:last-child){
+    margin-bottom: 24px;
+}

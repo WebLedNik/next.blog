@@ -1,0 +1,40 @@
+.comments{
+    width: 100%;
+    background-color: var(--fg);
+    border-radius: 8px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments__form, .comments__title{
+    max-width: var(--width_post-content);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.comments__title{
+    margin-bottom: 16px;
+}
+
+.comments__form{
+    margin-bottom: 28px;
+}
+
+.comments__content{
+    max-width: var(--width_post-content);
+    width: 100%;
+    margin: 0 auto;
+}
+
+.comments__body{
+
+}
+
+.comments__replies{
+    padding: 12px 0 12px 20px;
+    border-left: 1px solid var(--cl_grey);
+    margin-bottom: 24px;
+}
+
+

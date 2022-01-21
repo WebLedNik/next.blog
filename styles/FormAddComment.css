@@ -1,0 +1,30 @@
+.form-add-comment {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-add-comment__textarea {
+
+}
+
+.form-add-comment__actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-add-comment__btn {
+    background-color: var(--primary_first);
+    border-radius: 3px;
+    color: var(--fg);
+    padding: 6px 24px;
+}
+
+.form-add-comment__btn:hover {
+    opacity: .9;
+}
+
+.form-add-comment__btn:disabled {
+    cursor: default;
+    opacity: .6;
+}

@@ -1,0 +1,14 @@
+.popular{
+    max-width: 640px;
+    width: 100%;
+    margin: 12px auto 0;
+}
+
+.popular__title{
+    margin-bottom: 24px;
+    color: var(--primary_first);
+}
+
+.popular__section:not(:last-child){
+    margin-bottom: 24px;
+}

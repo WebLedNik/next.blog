@@ -1,0 +1,34 @@
+{
+  "cookies":{
+    "names": {
+      "jwt_access": "wp_authToken",
+      "jwt_refresh": "wp_refreshToken"
+    },
+    "options": {
+      "jwt_refresh": {
+        "domain": "blog.weblednik.ru",
+        "sameSite": "strict",
+        "httpOnly": true,
+        "secure": true,
+        "path": "/",
+        "maxAge": 1123000000
+      },
+      "jwt_access":{
+        "domain": "blog.weblednik.ru",
+        "sameSite": "strict",
+        "httpOnly": false,
+        "secure": true,
+        "path": "/",
+        "maxAge": 1123000000
+      },
+      "delete_cookie": {
+        "domain": "blog.weblednik.ru",
+        "sameSite": "strict",
+        "httpOnly": false,
+        "secure": true,
+        "path": "/",
+        "maxAge": -1
+      }
+    }
+  }
+}

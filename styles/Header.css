@@ -1,0 +1,142 @@
+.header__row {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header__menu {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__menu svg {
+    color: var(--cl_black);
+}
+
+.header__logo {
+    margin: 0 20px;
+}
+
+.header__logo span {
+    font-size: 20px;
+    color: var(--primary_first);
+}
+
+.header__searcher {
+    flex: 0 1 320px;
+    margin-left: 4px;
+}
+
+.header__spacer {
+    flex: 1 1 auto
+}
+
+.header__user{
+    position: relative;
+    padding: 0 20px 0 32px;
+}
+
+.header__user-login {
+    display: flex;
+    align-items: center;
+    color: var(--cl_black);
+    cursor: pointer;
+}
+
+.header__user-login:hover{
+    color: var(--primary_third);
+}
+
+.header__user-login svg{
+    margin-right: 8px;
+}
+
+.header__user-login span{
+    font-weight: 500;
+}
+
+.header__user-profile{
+    display: flex;
+    align-items: center;
+}
+
+.header__user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.header__user-avatar--menu{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.header__user-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    cursor: pointer;
+    color: var(--primary_first);
+}
+
+.header__user-icon:hover{
+    color: var(--primary_second);
+}
+
+.header__user-menu{
+    width: 200px;
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 12px;
+    border-radius: 4px;
+    background-color: var(--fg);
+    border: 1px solid var(--border);
+}
+
+.header__user-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__user-item{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 8px 16px;
+}
+
+.header__user-item:hover{
+    background-color: var(--bg-input);
+}
+
+.header__user-link{
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.header__user-link span{
+    font-weight: 500;
+    color: var(--cl_black);
+}
+
+.header__user-logout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header__user-logout svg{
+    margin-right: 8px;
+    color: var(--error);
+}
+
+.header__user-logout span{
+    font-weight: 400;
+    color: var(--error);
+}
